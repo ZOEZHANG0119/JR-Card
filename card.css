@@ -1,0 +1,51 @@
+.card3{
+    height:400px;
+    width:700px;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+
+.card3 .Burano-bg{
+    position:fixed;
+}
+
+.card3 .text-content{
+    position: relative;
+    margin-left:60px;
+}
+
+.card3 .text-content .font-white-red h4{
+    float: right;
+    background-color: red;
+    color:white;
+    margin-top:50px;
+    margin-right:20px;
+    border-radius: 10%;
+    padding:3px 15px;
+}
+
+.card3 .text-content .font-white-bold{
+    color:white;
+    padding-top:220px;
+}
+.card3 .text-content .rating p{
+    position: relative;
+    margin-left:10px;
+    display:inline;
+    color: gray;
+    font-size:0.8em;
+}
+.card3 .text-content .rating img{
+    width:1em;
+    height:1em;
+}
+
+.card3 .more{
+    position: relative;
+    float:right;
+    margin:-40px 30px 0px 0;
+}
