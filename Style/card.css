@@ -1,7 +1,7 @@
 #card3{
     height:400px;
     width:700px;
-    position:absolute;
+    position: absolute;;
     top:0;
     right:0;
     bottom:0;
@@ -24,10 +24,13 @@
     background-color: rgba(55, 210, 231, 0.2);
 }
 .text-content{
-    position: relative;
+    position: fixed;
     margin-left:60px;
 }
-
+.font-white-red{
+    position: relative;
+    width:600px;
+}
 .font-white-red h4{
     float: right;
     background-color: red;
@@ -59,9 +62,8 @@
 .fa{
     color:yellow;
 }
-
 .more{
-    position: relative;
-    float:right;
-    margin:-40px 30px 0px 0;
+    position: absolute;
+    margin-left:530px;
+    margin-top:-50px;
 }
