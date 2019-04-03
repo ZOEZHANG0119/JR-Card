@@ -1,60 +1,66 @@
 #card3{
-    height:400px;
-    width:700px;
-    position: absolute;;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
+    height:200px;
+    width:300px;
+    position: relative;
+    margin:10px 10px 10px 10px;
+    display: inline-flex;
+    flex-direction: column; 
 }
 
-.Burano-bg{
-    height:400px;
-    width:720px;
-    position:fixed;
+.Burano_bg img{
+    height:205px;
+    width:305px;
+    position: absolute;
 }
 .overlay{
-    height:400px;
-    width:720px;
+    height:200px;
+    width:300px;
     border-radius: 2%;
-    margin-left:8px;
-    margin-top:5px;
-    position: fixed;
+    margin-left:1%;
+    margin-top:1%;
+    position: absolute;
     background-color: rgba(55, 210, 231, 0.2);
 }
-.text-content{
-    position: fixed;
-    margin-left:60px;
+.Burano_intro{
+    position: absolute;
+    height:200px;
+    width:300px;
 }
-.font-white-red{
-    position: relative;
-    width:600px;
+
+.font_bgcolor-red{
+    position: absolute;
+    width:100%;
+    height:30%;
 }
-.font-white-red h4{
+.font_bgcolor-red h4{
     float: right;
     background-color: red;
     color:white;
-    margin-top:50px;
-    margin-right:20px;
+    margin:5% 5% 0 0;
     border-radius: 10%;
     padding:3px 15px;
 }
 
 .font-white-bold{
+    height:50%;
+    margin-left:13%;
+    margin-top:20%;
     color:white;
-    padding-top:220px;
 }
-
-#rating p{
+#rating{
+    position: absolute;
+}
+#rating h6{
     position: relative;
     margin-left:10px;
     display:inline;
     color: gray;
     font-size:0.8em;
 }
-
-#rating span{
+#rating ul{
+    display: inline;
+}
+#rating li{
     width:1em;
     height:1em;
 }
@@ -64,6 +70,6 @@
 }
 .more{
     position: absolute;
-    margin-left:530px;
-    margin-top:-50px;
+    margin-left:75%;
+    margin-top:-10%;
 }

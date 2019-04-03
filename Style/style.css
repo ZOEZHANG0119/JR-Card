@@ -1,0 +1,73 @@
+#card3 {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  margin: 10px 10px 10px 10px;
+  display: inline-flex;
+  flex-direction: column; }
+
+.Burano_bg img {
+  height: 205px;
+  width: 305px;
+  position: absolute; }
+
+.overlay {
+  height: 200px;
+  width: 300px;
+  border-radius: 2%;
+  margin-left: 1%;
+  margin-top: 1%;
+  position: absolute;
+  background-color: rgba(55, 210, 231, 0.2); }
+
+.Burano_intro {
+  position: absolute;
+  height: 200px;
+  width: 300px; }
+  .Burano_intro .font_bgcolor-red {
+    position: absolute;
+    width: 100%;
+    height: 30%; }
+    .Burano_intro .font_bgcolor-red h4 {
+      float: right;
+      background-color: red;
+      color: white;
+      margin: 5% 5% 0 0;
+      border-radius: 10%;
+      padding: 3px 15px; }
+  .Burano_intro .font-white-bold {
+    height: 50%;
+    margin-left: 13%;
+    margin-top: 20%;
+    color: white; }
+  .Burano_intro #rating {
+    position: absolute; }
+    .Burano_intro #rating ul {
+      display: inline; }
+      .Burano_intro #rating ul li {
+        width: 1em;
+        height: 1em; }
+        .Burano_intro #rating ul li .fa {
+          color: yellow; }
+    .Burano_intro #rating h6 {
+      position: relative;
+      margin-left: 10px;
+      display: inline;
+      color: gray;
+      font-size: 0.8em; }
+  .Burano_intro .more {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -10%; }
+
+.font_bgcolor-red {
+  position: absolute;
+  width: 100%;
+  height: 30%; }
+  .font_bgcolor-red h4 {
+    float: right;
+    background-color: red;
+    color: white;
+    margin: 5% 5% 0 0;
+    border-radius: 10%;
+    padding: 3px 15px; }
