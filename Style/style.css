@@ -46,9 +46,8 @@
       display: inline; }
       .Burano_intro #rating ul li {
         width: 1em;
-        height: 1em; }
-        .Burano_intro #rating ul li .fa {
-          color: yellow; }
+        height: 1em;
+        color: yellow; }
     .Burano_intro #rating h6 {
       position: relative;
       margin-left: 10px;
@@ -59,15 +58,3 @@
     position: absolute;
     margin-left: 75%;
     margin-top: -10%; }
-
-.font_bgcolor-red {
-  position: absolute;
-  width: 100%;
-  height: 30%; }
-  .font_bgcolor-red h4 {
-    float: right;
-    background-color: red;
-    color: white;
-    margin: 5% 5% 0 0;
-    border-radius: 10%;
-    padding: 3px 15px; }

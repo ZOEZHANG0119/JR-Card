@@ -55,9 +55,7 @@
             li{
                 width:1em;
                 height:1em;
-                .fa{
-                    color:yellow;
-                }
+                color:yellow;
             }
         }
         h6{
@@ -71,20 +69,6 @@
     .more{
         position: absolute;
         margin-left:75%;
-        margin-top:-10%;
-    }
-}
-
-.font_bgcolor-red{
-    position: absolute;
-    width:100%;
-    height:30%;
-    h4{
-        float: right;
-        background-color: red;
-        color:white;
-        margin:5% 5% 0 0;
-        border-radius: 10%;
-        padding:3px 15px;
+        margin-top:-10%;        
     }
 }
